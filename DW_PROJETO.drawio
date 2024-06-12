@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T03:13:52.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cw8yopz5p57QicIbABUy" version="24.4.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-12T03:50:05.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="z4imfdsu0MwPZfQWeIci" version="24.4.0" type="device">
   <diagram name="Página-1" id="Tr3iz-lXDCAHxjE_kvpH">
     <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,6 +38,11 @@
         <mxCell id="x70oRUMod4bwSfDLK-dq-8" value="API" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="151" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x70oRUMod4bwSfDLK-dq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="182.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="x70oRUMod4bwSfDLK-dq-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:610/1*lZrXmWJRDLqIImJThs5Lrw.png;" vertex="1" parent="1">
           <mxGeometry x="424.65" y="140" width="183.57" height="84.26" as="geometry" />
         </mxCell>
@@ -46,6 +51,15 @@
         </mxCell>
         <mxCell id="x70oRUMod4bwSfDLK-dq-16" value="TRANSFORM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/7/77/Streamlit-logo-primary-colormark-darktext.png;" vertex="1" parent="1">
+          <mxGeometry x="730" y="123.67" width="151" height="88.33" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-20" value="DW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="194.26" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-22" value="&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Vizualizacao&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="721" y="70" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

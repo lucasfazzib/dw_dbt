@@ -25,7 +25,6 @@ def buscar_dados_commodities(simbolo, periodo='5d', intervalo='1d'):
     ticker = yf.Ticker(simbolo)
     dados = ticker.history(period=periodo, interval=intervalo)[['Close']]
     dados['simbolo'] = simbolo
-
     return dados
 
 def buscar_todos_dados_commodities():
@@ -37,9 +36,10 @@ def buscar_todos_dados_commodities():
     return pd.concat(todos_dados)
 
 def salvar_postgres(df, schema='public'):
-    df.to_sql('commodities', engine, if_exists='append', index=True, index_label='Date', schema=schema)
+    df.to_sql('commodities', engine, if_exists='replace', index=True, index_label='Date', schema=schema)
+    print(f"Dados salvos no schema '{schema}' do banco de dados PostgreSQL")
 
 
 if __name__ == "__main__":
     dados_concatenados = buscar_todos_dados_commodities()
-    # print(dados_concatenados)
+    salvar_postgres(dados_concatenados, schema='public')
