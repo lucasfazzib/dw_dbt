@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2024-06-12T03:13:52.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cw8yopz5p57QicIbABUy" version="24.4.0" type="device">
+  <diagram name="Página-1" id="Tr3iz-lXDCAHxjE_kvpH">
+    <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x70oRUMod4bwSfDLK-dq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x70oRUMod4bwSfDLK-dq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/4370/4370758.png;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-2" value="Extract" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="182" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/8242/8242984.png;" vertex="1" parent="1">
+          <mxGeometry x="142" y="240" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-4" value="Dados Historicos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="113" y="292" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Extract com Python&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="61" y="9.999999999999996" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1200/0*1G9TmNdZsiH6Khmf.png;" vertex="1" parent="1">
+          <mxGeometry x="408.22" y="80" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Transformaçoes&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;com DBT&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="408.22" y="9.999999999999996" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x70oRUMod4bwSfDLK-dq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-8" value="API" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:610/1*lZrXmWJRDLqIImJThs5Lrw.png;" vertex="1" parent="1">
+          <mxGeometry x="424.65" y="140" width="183.57" height="84.26" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-14" value="LOAD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x70oRUMod4bwSfDLK-dq-16" value="TRANSFORM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
